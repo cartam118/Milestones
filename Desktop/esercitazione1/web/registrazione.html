@@ -14,6 +14,26 @@ and open the template in the editor.
         <meta name="description" content="Esercitazione di lab, pagina di registrazioe dell'utente">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div>
+        <ul>
+            <li>
+            <a href="index.html">Home</a>
+        </li>
+        </ul>
+        </div>
+        <div>
+            <form action="index.html" method="post">
+                <label for="nomeutente">Nome:</label>
+                <input type="text" name="nomeUtente" id="nomeutente" value="Mario Rossi ex..." >
+                <br/>
+                <label for="id_username">Username</label>
+                <input type="text" name="userName" id="id_username" value="Username">
+                <br/>
+                <label for="id_password">Passowrd:</label>
+                <input type="password" name="password" id="id_password" value="Password">
+                <br/>
+                <input type="button" value="Torna alla home">
+            </form>
+        </div>
     </body>
 </html>
