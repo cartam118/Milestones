@@ -6,14 +6,18 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Mattia Carta">
         <meta name="keywords" content="FPW, Progetto, HTML, CSS, JAVA">
         <meta name="description" content="Esercitazione di lab, pagina di registrazioe dell'utente">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
     <body>
+        <img title="siteImg" alt="site Picture logo" src="images.jpg" width="240" height="300" id="logo">
+
         <div>
         <ul>
             <li>
@@ -21,7 +25,24 @@ and open the template in the editor.
         </li>
         </ul>
         </div>
+        <nav>
+            <h2>
+                Lista Pagine
+            </h2>
+            <ul>
+                <li>
+                    <a href="https://google.com">Ti sei perso?</a>
+                </li>
+                <li>
+                    <a href="articoli.html">Gli articoli</a>
+                </li>
+                <li>
+                    <a href="registrazione.html">Registrazione</a>
+                </li>
+            </ul>
+        </nav>
         <div>
+            <h2 class="lillo">Sign Up Dawg</h2>
             <form action="index.html" method="post">
                 <label for="nomeutente">Nome:</label>
                 <input type="text" name="nomeUtente" id="nomeutente" value="Mario Rossi ex..." >
@@ -32,8 +53,36 @@ and open the template in the editor.
                 <label for="id_password">Passowrd:</label>
                 <input type="password" name="password" id="id_password" value="Password">
                 <br/>
-                <input type="button" value="Torna alla home">
+                <label for="scrittore">Scrittore</label>
+                <input type="radio" name="tipoUtente" id="scrittore" value="scrittore">
+                <br/>
+                <label for="autore">Autore</label>
+                <input type="radio" name="tipoUtente" id="autore" value="Autore">
+                <br/>
+                
+                <input type="submit" value="Submit">
+                <br/>
+                <p class="lillo">Colore Preferito</p>
+                <select>
+                    <option value="red">Rosso</option>
+                    <option value="yellow">Giallofrari</option>
+                    <option value="green">Verde</option>
+                    <option value="white">Biancofrari</option>
+                    <option value="black">Nero</option>
+              
+                </select>
+                
             </form>
+        </div>
+        <div id="content">
+            <div>
+                <h2>provaInterna</h2>
+            </div>
+            <h2>Prova</h2>
+            <h2>Prova</h2>
+            <h2>Prova</h2>
+            <h2>Prova</h2>
+            
         </div>
     </body>
 </html>

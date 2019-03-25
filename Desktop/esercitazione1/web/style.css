@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-mar-2019, 9.35.42
+    Author     : mattc
+*/
+body{
+    font-size: 14px;
+    font-family: "Open Sans", arial, sans-serif;
+    color: black;
+    
+}
+header, footer{
+    
+    color: white;
+}
+#logo{
+    background-color: #1c345a
+}
+.lillo{
+    font-weight: bold;
+}
+#content > h2{
+    color: yellow;
+}
+h1, h2, h3, h4, h5, h6{
+    color: blue;
+}
