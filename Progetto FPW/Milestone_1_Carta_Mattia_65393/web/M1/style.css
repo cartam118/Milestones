@@ -10,11 +10,53 @@ and open the template in the editor.
 
 h1{
     font-family:"Times New Roman";
-    color: black;
+    color: #00004d;
+    font-family: "Futura";
+    text-align:left;
+}
+#loginForm{
+    padding-left:40%;
     
 }
-h2{
-    font-family:"Times New Roman";
-    color: black;
+p{
+    padding-right: 50px
+        
+}
+header{
+    background-color: #1A263E;
+    text-align: left;
+    font-family: "Futura";
+    
+}
+.nav-bar{
+    background-color: #1A263E;
+    padding-right: 97%;
+}
+#articoloV{
+    text-indent: 30px;
+}
+p{
+    margin: inherit;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#logo{
+    background-color: #1A263E; 
+    padding-right: 90%;
+    border-collapse: collapse;
+    position: relative;
+    
+}
+body{
+    background-color: #DCDCDC;
+}
+
+nav{
+    
+    position: relative;
+    box-shadow: 10px;
+    background-color: #1A263E;
+    padding-top: 15px;
+    padding-bottom: 8px;
     
 }
