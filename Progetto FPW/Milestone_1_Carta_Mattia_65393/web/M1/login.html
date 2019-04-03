@@ -12,26 +12,42 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
     <body>
-        <img title="siteImg" alt="site Picture logo" src="Imgs/Just Review.png" width="150" id="logo">
         
-        </br>
-        <nav>
-            <a href="valutazione.html">Valutazione</a>
-        
-        </nav>
-        <div id="loginForm">
+        <div>
+            <img title="siteImg" alt="site Picture logo" src="Imgs/Just Review.png" width="150" id="logo">
+            <nav id="navBarSup">
+                <ul>
+                    <li><a href="valutazione.html">Valutazione</a></li>
+                    <li><a href="valutazione.html">Valutazione</a></li>
+                    <li><a href="valutazione.html">Valutazione</a></li>
+                </ul>
+            </nav>
+        </div>
+        <aside>
+            <ul>
+                <li>Articolo1</li>
+                <li>Articolo2</li>
+                <li>Articolo3</li>
+            </ul>
+        </aside>
+        <div class="boxInput">
             
-            <form action="articoli.html" method="post" >
+            <form action="articoli.html" method="post">
                 <label for="nomeutente">Nome:</label>
+                <br/>
                 <input type="text" name="nomeUtente" id="nomeutente"  onfocus="this.value=''" value="Mario Rossi ex..." >
                 <br/>
                 <label for="id_username">Username</label>
+                <br/>
                 <input type="text" name="userName" id="id_username" onfocus="this.value=''" value="Username">
                 <br/>
                 <label for="id_password">Passowrd:</label>
+                <br/>
                 <input type="password" name="password" id="id_password" onfocus="this.value=''" value="Password">
                 <br/>
                 <input type="submit" value="Login">
+                
+                
             </form>
         </div>
     </body>

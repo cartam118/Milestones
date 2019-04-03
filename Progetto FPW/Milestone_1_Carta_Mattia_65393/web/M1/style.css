@@ -7,10 +7,15 @@ and open the template in the editor.
     Created on : 27-mar-2019, 15.12.35
     Author     : mattc
 */
-
-h1{
-    font-family:"Times New Roman";
-    color: #00004d;
+/*
+*{
+    box-sizing: border-box;
+    border-color: steelblue; 
+    border-width: 4px;
+}
+h1, h2, h3{
+    font-family:"open-serif";
+    color: activecaption ;
     font-family: "Futura";
     text-align:left;
 }
@@ -42,21 +47,163 @@ p{
 }
 #logo{
     background-color: #1A263E; 
-    padding-right: 90%;
-    border-collapse: collapse;
+    
     position: relative;
     
 }
 body{
-    background-color: #DCDCDC;
+    background-color: #D0D0D0;
 }
 
+
+
 nav{
-    
-    position: relative;
     box-shadow: 10px;
     background-color: #1A263E;
     padding-top: 15px;
     padding-bottom: 8px;
+}
+ nav ul li{
+    border-style:solid;
+    list-style: none;
+    position: relative;
+    }
+
+
+*/
+*{
+    box-sizing:border-box;
+    border-color: steelblue;
+}
+
+/* Style */
+
+body {
+   font-family: "Open Sans", Arial, sans-serif;
+   background: #D0D0D0;
+   color: white;
+}
+
+h1, h2, h3{
+    color: #1A263E;
+}
+.boxInput{
     
+    border-width: medium;
+    color: #1A263E;
+    margin-left: 45%;
+    
+    padding-left: auto;
+    padding-right: auto;
+    
+}
+input {
+    border-style:double;
+    border-width: medium;
+    
+    color: #1A263E;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input:focus {
+    color: whitesmoke;
+    background: salmon;
+}
+
+a:visited {
+    color: aliceblue;
+}
+table {
+   
+  border: 6px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  border-spacing: 5px;
+  padding: 50%;
+  
+}
+tr{
+    
+    border-collapse: collapse;
+    border-color: black;
+}
+a:link {
+    color:white;
+}
+
+a:active{
+    color:blueviolet;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+/* Layout */
+
+header {
+    border-width: medium;
+    border-style: solid;
+}
+
+
+
+#logodiv{
+    position: relative;
+    height: 150px;
+}
+
+.logoimg {
+    height:100%;
+}
+
+#logotitle {
+    position: absolute;
+    display: inline;
+}
+
+nav ul li{
+   border-style: solid;
+   border-radius: 20px;
+   list-style: none; 
+   padding:14px;
+   float: left;
+   background-color: #1A263E;
+}
+
+
+
+nav ul {
+    margin: 0px;
+    position: relative;
+}
+
+nav{
+    border-style: solid;
+    border-width:thin;
+    float: left;
+    width: 100%;
+    background-color: #1A263E;
+}
+aside{
+    border-style: solid;
+    border-width:thin;
+    padding-bottom: 100%;
+    padding-right: 12px;
+    padding-left: -4px;
+    float: left;
+    height: 100%;
+    background-color: #1A263E;
+    display: inline;
+}
+aside ul{
+   margin: 0px;
+   position: relative;
+   border-style: solid;
+   border-radius: 20px;
+   list-style: none; 
+   padding:14px;
+   float: left;
+   background-color: #1A263E;
 }
